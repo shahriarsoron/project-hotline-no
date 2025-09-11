@@ -21,8 +21,8 @@
 </head>
 
 <body>
-    <!-- service gold bar -->
-    <section class="flex justify-between items-center max-w-[1400px] mx-auto mt-5">
+    <!-- service and gold bar -->
+    <section class="flex flex-col md:flex-row justify-between items-center max-w-[1400px] mx-auto mt-5">
         <div class="flex">
             <div class="h-12 w-12 mr-2">
                 <img src="assets/logo.png" alt="">
@@ -31,7 +31,7 @@
                 <h1 class="text-[#006747] font-[1000] text-lg">Emergency <br> Service</h1>
             </div>
         </div>
-        <div class="flex gap-5">
+        <div class="flex flex-col md:flex-row gap-5">
             <div class="bg-[#41ff6b1a] h-[55px] w-[130px] rounded-[50px] flex justify-center items-center">
                 <span id="heart-count">0</span>
                 <img src="assets/heart.png" alt="" class="h-8 w-8 ml-2">
@@ -49,15 +49,15 @@
     <section
         class="bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] h-[240px] p-4 flex justify-center items-center mt-4 mb-8">
         <div>
-            <div class="h-[92px] w-[92px] mx-auto">
-                <img src="assets/logo-dark.png " alt="">
+            <div class="h-[60px] w-[60px] mx-auto md:h-[92px] md:w-[92px] ">
+                <img src="assets/logo-dark.png " alt="" class="">
             </div>
-            <h1 class="text-white text-4xl font-bold text-center mb-5">Emergency Service Directory</h1>
-            <p class="text-lg text-white font-semibold text-center">Government Emergency Services at Your Fingertip – A
+            <h1 class="text-xl md:text-4xl text-white font-bold text-center mb-5">Emergency Service Directory</h1>
+            <p class=" text-sm md:text-lg text-white font-semibold text-center">Government Emergency Services at Your Fingertip – A
                 Project by Government of the People’s Republic of Bangladesh</p>
         </div>
     </section>
-    <section class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-3">
+    <section class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-3">
         <!-- row one left -->
         <div class="hotline-card shadow-2xl border-none p-12 rounded-3xl">
             <div class="flex justify-between items-center mb-4">
